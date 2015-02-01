@@ -72,62 +72,9 @@ html, body {
 }
 
 
-/*-----------------------------------------------
-	= Header
------------------------------------------------*/
-
-header#globalHeader {
-	display:none;
-}
-
-/*	= Content Header
------------------------------------------------ */
-
-#contentHeader {
-	background: url(../img/top_bg.jpg) no-repeat center top fixed;
-	background-size: cover;
-	min-width: 100%;
-	min-height: 80%;
-	width: 100%;
-	height: auto;
-	text-align: center;
-	padding-top: 80px;
-}
-#contentHeader h1 img {
-	width: 80%;
-	height: 30%;
-}
-#contentHeader h2 {
-	font-size: 48px;
-	color: #fff;
-}
-#contentHeader h1 {
-	font-size: 64px;
-	color: #fff;
-}
-a.gotoRegister {
-	display: block;
-	background: #c84a61;
-	width: 80%;
-	margin: 20px auto;
-	border: 2px solid #fff;
-	padding: 16px;
-	font-size: 16px;
-	color: #000;
-	border-radius: 5px;
-}
-a.gotoRegister:hover {
-	opacity: 0.6;
-}
-span.keyword {
-	color: #fff;
-	font-size: 2em;
-	font-weight: bold;
-}
-
 
 /* pc */
-@media all and (min-width: 768px) {
+
 /*-----------------------------------------------
 	= Header
 -----------------------------------------------*/
@@ -706,5 +653,89 @@ span.keyword {
 	margin: 10px;
 }
 
+
+@media all and (max-width: 768px) {
+/*-----------------------------------------------
+	= Smart Header
+-----------------------------------------------*/
+
+header#globalHeader {
+	display:none;
+}
+
+/*	= Smart Content Header
+----------------------------------------------- */
+
+#contentHeader {
+	background: url(../img/top_bg.jpg) no-repeat center top fixed;
+	background-size: cover;
+	min-width: 100%;
+	min-height: 50%;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding-top: 80px;
+}
+#contentHeader h1 img {
+	width: 80%;
+	height: 30%;
+}
+#contentHeader h2 {
+	font-size: 48px;
+	color: #fff;
+}
+#contentHeader h1 {
+	font-size: 64px;
+	color: #fff;
+}
+a.gotoRegister {
+	display: block;
+	background: #c84a61;
+	width: 80%;
+	margin: 20px auto;
+	border: 2px solid #fff;
+	padding: 16px;
+	font-size: 16px;
+	color: #000;
+	border-radius: 5px;
+}
+a.gotoRegister:hover {
+	opacity: 0.6;
+}
+span.keyword {
+	color: #fff;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+
+/*-----------------------------------------------
+	= Smart Content
+-----------------------------------------------*/
+
+#content {
+	background: url(../img/content_bg.png) no-repeat center center fixed;
+	background-size: cover;
+	margin-top: 60px;
+	width: 100%;
+	height: 100%;
+}
+
+.areaTitle img{
+	width:80%;
+	margin-left:0;
+	margin-right:0;
+}
+
+#mainContent {
+	background: url(../img/content_bg.png) no-repeat center center fixed;
+	background-size: cover;
+	color: #000;
+	text-align: center;
+}
+
+#subContent1 {
+	background: #c84a61;
+	color: #fff;
 
 }
