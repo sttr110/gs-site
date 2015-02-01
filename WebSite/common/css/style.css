@@ -86,7 +86,7 @@ header#globalHeader {
 #contentHeader {
 	background: url(../img/top_bg.jpg) no-repeat center top fixed;
 	background-size: cover;
-	min-width: 1024px;
+	min-width: 100%;
 	min-height: 80%;
 	width: 100%;
 	height: auto;
@@ -94,8 +94,8 @@ header#globalHeader {
 	padding-top: 80px;
 }
 #contentHeader h1 img {
-	width: 750px;
-	height: 300px;
+	width: 80%;
+	height: 30%;
 }
 #contentHeader h2 {
 	font-size: 48px;
