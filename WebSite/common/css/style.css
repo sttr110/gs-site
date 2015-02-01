@@ -108,11 +108,11 @@ header#globalHeader {
 a.gotoRegister {
 	display: block;
 	background: #c84a61;
-	width: 500px;
+	width: 80%;
 	margin: 20px auto;
 	border: 2px solid #fff;
 	padding: 16px;
-	font-size: 28px;
+	font-size: 16px;
 	color: #000;
 	border-radius: 5px;
 }
@@ -121,7 +121,7 @@ a.gotoRegister:hover {
 }
 span.keyword {
 	color: #fff;
-	font-size: 2.5em;
+	font-size: 2em;
 	font-weight: bold;
 }
 
