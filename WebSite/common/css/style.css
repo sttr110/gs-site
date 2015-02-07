@@ -283,7 +283,7 @@ a.gotoRegister {
 a.gotoRegister:hover {
 	opacity: 0.6;
 }
-span.keyword {
+span. {
 	color: #fff;
 	font-size: 2.5em;
 	font-weight: bold;
@@ -685,7 +685,6 @@ span.keyword {
 	= Smart Content
 -----------------------------------------------*/
 .areaTitle img {
-
 	width:80%;
 }
 
@@ -715,7 +714,7 @@ span.keyword {
 	width: auto;
 	height: auto;
 	margin-top: 10px;
-	padding: 20px;
+	padding: 15px;
 	overflow: auto;
 }
 .areaInner p {
@@ -773,6 +772,7 @@ span.keyword {
 
 #about h3 {
 	width: 100%;
+	margin-top:30px;
 	text-align: center;
 }
 
@@ -780,6 +780,7 @@ span.keyword {
 ----------------------------------------------- */
 #howto h3 {
 	width: 100%;
+	margin-top:30px;
 	display: block;
 }
 
@@ -789,4 +790,29 @@ span.keyword {
 
 .smartHowto{
   display: block;
+  float:none;
+}
+
+.smartHowto img {
+	width: 90%;
+}
+
+
+/*	compare
+----------------------------------------------- */
+#compare h3 {
+  margin-top:30px;
+}
+#compare .keyword {
+	width: 80%;
+	font-size: 21px;
+}
+#compare .keyword span.strong {
+	font-size: 1.2em;
+}
+
+/*	compare
+----------------------------------------------- */
+#ivent h3 {
+	margin-top:30px;
 }
