@@ -790,13 +790,12 @@ span.keyword {
 
 .smartHowto{
   display: block;
-  float:none;
+  float: none;
 }
 
 .smartHowto img {
 	width: 90%;
 }
-
 
 /*	compare
 ----------------------------------------------- */
