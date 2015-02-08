@@ -445,7 +445,6 @@ span. {
 
 /*	= Ivent
 ----------------------------------------------- */
-
 #ivent .areaInner {
 	background: #fff;
 	border: 10px solid #3e588e;
@@ -459,13 +458,13 @@ span. {
 	top: -50px;
 	left: -40px;
 	width: 80%;
-    color: #fff;
-    background: #3e588e;
-    font-size: 16pt ;
-    line-height: 1;
-    margin: 20px -10px -30px -10px;
-    padding: 10px 5px 10px 50px;
-    z-index: 1;
+  color: #fff;
+  background: #3e588e;
+  font-size: 16pt ;
+  line-height: 1;
+  margin: 20px -10px -30px -10px;
+  padding: 10px 5px 10px 50px;
+  z-index: 1;
 }
 #ivent h3:after {
     content: "";
@@ -771,7 +770,7 @@ span.keyword {
 ----------------------------------------------- */
 
 #about h3 {
-	width: 100%;
+	width: 60%;
 	margin-top:30px;
 	text-align: center;
 }
@@ -779,7 +778,7 @@ span.keyword {
 /*	Smart Howto
 ----------------------------------------------- */
 #howto h3 {
-	width: 100%;
+	width: 60%;
 	margin-top:30px;
 	display: block;
 }
@@ -800,6 +799,7 @@ span.keyword {
 /*	compare
 ----------------------------------------------- */
 #compare h3 {
+	width: 60%;
   margin-top:30px;
 }
 #compare .keyword {
@@ -814,4 +814,30 @@ span.keyword {
 ----------------------------------------------- */
 #ivent h3 {
 	margin-top:30px;
+	width: 60%;
+}
+
+ #ivent td {
+    display: block;
+}
+
+
+
+#ivent table {
+	width: 100%;
+	padding: 0;
+	font-size: 18px;
+}
+#ivent table tr td:nth-child(1) {
+	width: 100%;
+	font-weight: bold;
+}
+
+#ivent img.figure {
+	width: 100%;
+	padding: 0;
+	float:right;
+}
+.rightSide {
+	float:none;
 }
