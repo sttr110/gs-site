@@ -725,21 +725,21 @@ html {
 	overflow: auto;
 }
 .areaInner p {
-	font-size: 18px;
+	font-size: 12px;
 	line-height: 24px;
 	padding: 0 20px;
 	margin: 10px 0 30px;
 	text-align: left;
 }
 .areaInner h3 {
-	font-size: 24px;
+	font-size: 16px;
 	line-height: 30px;
 	padding: 0 20px;
 	margin: 10px 0;
 	text-align: left;
 }
 .areaInner p.bigger {
-	font-size: 2.5em;
+	font-size: 1.0em;
 	line-height: 1.4em;
 	text-align: center;
 }
@@ -778,17 +778,19 @@ html {
 ----------------------------------------------- */
 
 #about h3 {
-	width: 60%;
-	margin-top:30px;
-	text-align: center;
+  width:60%;
+  margin-top:30px;
+  font-size: 14pt;
+  line-height: 1.5em;
 }
 
 /*	Smart Howto
 ----------------------------------------------- */
 #howto h3 {
-	width: 60%;
-	margin-top:30px;
-	display: block;
+  width:60%;
+  margin-top:30px;
+  font-size: 14pt;
+  line-height: 1.5em;
 }
 
 .pcHowto{
@@ -807,8 +809,10 @@ html {
 /*	compare
 ----------------------------------------------- */
 #compare h3 {
-	width: 60%;
+  width:60%;
   margin-top:30px;
+  font-size: 14pt;
+  line-height: 1.5em;
 }
 #compare .keyword {
 	width: 80%;
@@ -821,15 +825,15 @@ html {
 /*	ivent
 ----------------------------------------------- */
 #ivent h3 {
-	margin-top:30px;
-	width: 60%;
+  margin-top:30px;
+  width: 60%;
+  font-size: 12pt;
+  line-height: 1.5em;
 }
 
  #ivent td {
     display: block;
 }
-
-
 
 #ivent table {
 	width: 100%;
@@ -895,3 +899,53 @@ html {
 #register input.submit {
 	width: 100%;
 }
+
+/*	= Company
+----------------------------------------------- */
+#company img {
+	margin-top:50px;
+	width:90%;
+}
+#company .areaInner {
+	background: none;
+	color: #fff;
+}
+#company .figure {
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+
+/*	= Content Footer
+----------------------------------------------- */
+
+#contentFooter {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background: #c84a61;
+	width: 100%;
+	height: 5%;
+	color: #fff;
+	text-align: center;
+	z-index: 100;
+}
+#contentFooter img#oda {
+	position: absolute;
+	bottom: 16px;
+	left: 0;
+	width: 30%;
+}
+#contentFooter img#tokugawa {
+	position: absolute;
+	bottom: 16px;
+	right: 0;
+	float: right;
+	width: 30%;
+}
+#contentFooter #copyright {
+	margin: 5px;
+	font-size:14px;
+}
+
