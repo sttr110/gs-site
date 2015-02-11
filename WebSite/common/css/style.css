@@ -509,6 +509,10 @@ span. {
 /*	= Register
 ----------------------------------------------- */
 
+.smartRegister {
+	display: none;
+}
+
 #register.contentArea {
 	background: #fff;
 	padding: 30px 0;
@@ -683,6 +687,10 @@ span.keyword {
 /*-----------------------------------------------
 	= Smart Content
 -----------------------------------------------*/
+html {
+	background: #c84a61;
+}
+
 .areaTitle img {
 	width:80%;
 }
@@ -694,7 +702,7 @@ span.keyword {
 }
 #subContent2 {
 	background: #66b744;
-	color: #fff;
+	color: #c84a61;
 	text-align: center;
 }
 .contentInner {
@@ -840,4 +848,50 @@ span.keyword {
 }
 .rightSide {
 	float:none;
+}
+
+
+
+/*	= smartRegister
+----------------------------------------------- */
+/*参加申し込み*/ 
+
+#register img {
+	width:80%;
+}
+
+#register tr td {
+	border:solid 2px #ccc;
+}
+
+.pcRegister {
+	display: none;
+}
+
+.smartRegister {
+	display: block;
+}
+
+#register.contentArea {
+	background: #eee;
+}
+
+#register form {
+	width: 100%;
+}
+
+#register table {
+	width: 100%;
+}
+
+#register input.text {
+	width: 90%;
+}
+
+#register select {
+	width: 90%;
+}
+
+#register input.submit {
+	width: 100%;
 }

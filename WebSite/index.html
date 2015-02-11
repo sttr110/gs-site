@@ -240,7 +240,7 @@
       </p>
       <form class="registerForm" action="http://system.zan-japan.com/event-entry" method="post">
 
-      <table>
+      <table class="pcRegister">
         <tr>
           <td colspan="2"><label><b>チーム名</b></label></td>
           <td><span class="need">必須</span></td>
@@ -325,6 +325,109 @@
           <td class="inputArea"><input type="text" class="text" name="theme"><br>合コンで話したいテーマを教えてください。例：ペット、映画、スポーツなど</td>
         </tr>
       </table>
+
+      <table class="smartRegister">
+        <tr>
+          <td rowspan="2"></td>
+          <td colspan="2"><label><b>チーム名</b></label><span class="need">必須</span></td>
+        </tr>
+        <tr>
+          <td colspan="3"　class="inputArea"><input type="text" class="text" name="teamName" required><br>チーム名を記入してください。 例：ネトゲ廃人高知連合</td>
+        </tr>
+        <tr　class="sectionLine">
+          <td rowspan="8"　class="section">代表者</td>
+          <td colspan="2"><label><b>お名前</b></label><span class="need">必須</span></td>
+        </tr>
+        <tr>
+          <td colspan="3" class="inputArea"><input type="text" class="text" name="name[]" required><br>お名前をフルネームで記入してください。 例：山田 太郎</td>
+        </tr>
+        <tr>
+          <td><label><b>生年月日</b></label><span class="need">必須</span></td>
+        </tr>
+        <tr>
+         <td colspan="3" class="inputArea"><input type="number" class="text" name="birthday[]" required><br>生年月日を8桁の数字で記入してください。例：1990年1月1日生まれ → 19900101</td>
+        </tr>
+        <tr>
+          <td><label><b>メールアドレス</b></label><span class="need">必須</span></td>
+        </tr>
+        <tr>
+         <td colspan="3" class="inputArea"><input type="email" class="text" name="email[]" required><br>メールアドレスを記入してください。例：taro.yamada@mail.com</td>
+        </tr>
+        <tr>
+          <td><label><b>お電話番号</b></label><span class="need">必須</span></td>
+        </tr>
+        <tr>
+        <td colspan="3" class="inputArea"><input type="tel" class="text" name="tel[]" required><br>緊急連絡先を記入してください。例：090-1234-5678</td>
+        </tr>
+        <tr　class="sectionLine">
+          <td rowspan="8"　class="section">２人目</td>
+          <td><label><b>お名前</b></label><span class="need">必須</span></td>
+        </tr>
+        <tr>
+          <td colspan="3" class="inputArea"><input type="text" class="text" name="name[]" required><br>お名前をフルネームで記入してください。 例：山田 太郎</td>
+        </tr>
+        <tr>
+          <td><label><b>生年月日</b></label><span class="need">必須</span></td>
+        </tr>
+        <tr>
+         <td colspan="3" class="inputArea"><input type="number" class="text" name="birthday[]" required><br>生年月日を8桁の数字で記入してください。例：1990年1月1日生まれ → 19900101</td>
+        </tr>
+        <tr>
+          <td><label><b>メールアドレス</b></label><span class="need">必須</span></td>
+        </tr>
+        <tr>
+         <td colspan="3" class="inputArea"><input type="email" class="text" name="email[]" required><br>メールアドレスを記入してください。例：taro.yamada@mail.com</td>
+        </tr>
+        <tr>
+          <td><label><b>お電話番号</b></label><span class="need">必須</span></td>
+        </tr>
+        <tr>
+        <td colspan="3" class="inputArea"><input type="tel" class="text" name="tel[]" required><br>緊急連絡先を記入してください。例：090-1234-5678</td>
+        </tr>
+        <tr　class="sectionLine">
+          <td rowspan="8"　class="section">３人目</td>
+          <td><label><b>お名前</b></label><span class="need">必須</span></td>
+        </tr>
+        <tr>
+          <td colspan="3" class="inputArea"><input type="text" class="text" name="name[]" required><br>お名前をフルネームで記入してください。 例：山田 太郎</td>
+        </tr>
+        <tr>
+          <td><label><b>生年月日</b></label><span class="need">必須</span></td>
+        </tr>
+        <tr>
+         <td colspan="3" class="inputArea"><input type="number" class="text" name="birthday[]" required><br>生年月日を8桁の数字で記入してください。例：1990年1月1日生まれ → 19900101</td>
+        </tr>
+        <tr>
+          <td><label><b>メールアドレス</b></label><span class="need">必須</span></td>
+        </tr>
+        <tr>
+         <td colspan="3" class="inputArea"><input type="email" class="text" name="email[]" required><br>メールアドレスを記入してください。例：taro.yamada@mail.com</td>
+        </tr>
+        <tr>
+          <td><label><b>お電話番号</b></label><span class="need">必須</span></td>
+        </tr>
+        <tr>
+        <td colspan="3" class="inputArea"><input type="tel" class="text" name="tel[]" required><br>緊急連絡先を記入してください。例：090-1234-5678</td>
+        </tr>
+        <tr>
+          <td rowspan="4"></td>
+          <td colspan="2"><label><b>参加会場</b></label><span class="need">必須</span></td>
+        </tr>
+        <tr>
+          <td class="inputArea" colspan="3">
+          <select name="place" required>
+            <option value="SHIDAX 高知追手筋クラブ">SHIDAX 高知追手筋クラブ</option>
+            <option value="SHIDAX 徳島秋田町クラブ">SHIDAX 徳島秋田町クラブ</option>
+          </select><br>参加したい会場を選択してください。</td>
+        </tr>
+        <tr>
+          <td colspan="2"><label><b>話したいテーマ</b></label><span class="notNeed">任意</span></td>
+        </tr>
+        <tr>
+          <td colspan="3"　class="inputArea"><input type="text" class="text" name="theme"><br>合コンで話したいテーマを教えてください。例：ペット、映画、スポーツなど</td>
+        </tr>
+      </table>
+
       <br><br>
       <input type="submit" class="submit" value="参加を申し込む">
       </form>
