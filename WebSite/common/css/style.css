@@ -925,7 +925,6 @@ html {
   margin-top:30px;
   font-size: 14pt;
   line-height: 2.0em;
-
 }
 
 .pcHowto{
@@ -941,6 +940,11 @@ html {
 	width: 90%;
 }
 
+.HowtoDo{
+  background: #e2efb5;
+  display:block;
+  line-height: 3.0em;
+}
 /*	compare
 ----------------------------------------------- */
 #compare h3:nth-child(1) {
@@ -950,7 +954,7 @@ html {
   line-height: 2.0em;
 }
 
-#compare h3:nth-child(n+1) {
+#compare h3:nth-child(n+2) {
   width: 60%;
   margin-top:30px;
   font-size: 14pt;
@@ -962,6 +966,7 @@ html {
 }
 #compare .keyword span.strong {
 	font-size: 1.2em;
+
 }
 
 /*	ivent
