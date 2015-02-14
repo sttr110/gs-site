@@ -79,6 +79,10 @@ html, body {
 	= Header
 -----------------------------------------------*/
 
+#SmartGlobalHeader{
+  display: none;
+}
+
 header#globalHeader {
 	position: fixed;
 	top: 0;
@@ -684,12 +688,19 @@ span.keyword {
 }
 
 
+
 /*-----------------------------------------------
 	= Smart Content
 -----------------------------------------------*/
 html {
 	background: #c84a61;
 }
+
+
+/*-----------------------------------------------
+	= Smart Common
+-----------------------------------------------*/
+
 
 .areaTitle img {
 	width:80%;
@@ -698,7 +709,6 @@ html {
 #subContent1 {
 	background: #c84a61;
 	color: #fff;
-
 }
 #subContent2 {
 	background: #66b744;
@@ -772,6 +782,116 @@ html {
 .areaInner img {
 	padding: 5px 10px;
 }
+
+/*-----------------------------------------------
+	= Smart menu
+-----------------------------------------------*/
+#SmartGlobalHeader{
+  display: block;
+  top:0;
+  position: fixed;
+  width:100%;
+  z-index:100;
+}
+#globalHeader{
+  display: none;
+}
+
+#menu {
+  display: none;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0;
+}
+#menu li{
+  display: block;
+  float: left;
+  width: 12.5%;
+  margin: 0;
+  padding: 0;
+}
+#menu li a {
+  display: block;
+  padding: 20px 0 20px;
+
+  color: #FFF;
+  text-align: center;
+  text-decoration: none;
+  border-right:1px solid #000;
+}
+#menu li:nth-child(1){
+    background-color: #c84a61;
+}
+#menu li:nth-child(2){
+    background-color: #66b744;
+}
+#menu li:nth-child(3){
+    background-color: #d5a84f;
+}
+#menu li:nth-child(4){
+    background-color: #3e588e;
+}
+#menu li:nth-child(5){
+    background-color: #c84a61;
+}
+#menu li:nth-child(6){
+    background-color: #66b744;
+    border-bottom: solid 1px #000;
+}
+
+#menu li:last-child a{
+  border: none;
+}
+#menu li a:hover{
+  background: #aaa;
+}
+#menu li {
+  width: 100%;
+}
+#toggle {
+  display: block;
+  position: relative;
+  width: 100%;
+  background: #c84a61;
+}
+#toggle a{
+  display: block;
+  position: relative;
+  padding: 20px 0 20px;
+  border-bottom: 1px solid #000;
+  color:#fff;
+  text-align: center;
+  text-decoration: none;
+}
+#toggle:before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  width: 30px;
+  height: 30px;
+  margin-top: -15px;
+  background: #fff;
+}
+#toggle a:before, #toggle a:after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  width: 30px;
+  height: 6px;
+  background: #c84a61;
+}
+#toggle a:before {
+  margin-top:-9px;
+}
+#toggle a:after {
+  margin-top: 3px;
+}
+
 
 
 /*	Smart About
