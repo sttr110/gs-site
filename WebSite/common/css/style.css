@@ -75,6 +75,12 @@ html, body {
 
 /* pc */
 
+/* = Smart Display None
+-----------------------------------------------*/
+.br-sp {
+  display: none;
+}
+
 /*-----------------------------------------------
 	= Header
 -----------------------------------------------*/
@@ -665,6 +671,14 @@ span. {
 /*sumaho*/
 @media all and (max-width: 720px) {
 
+
+/*
+	= pc display none / smart display block
+----------------------------------------------- */
+.br-sp{
+  display: block;
+}
+
 /*---------------------------------------------
 	= Smart Content Header
 ----------------------------------------------- */
@@ -735,7 +749,7 @@ html {
 	overflow: auto;
 }
 .areaInner p {
-	font-size: 12px;
+	font-size: 16px;
 	line-height: 24px;
 	padding: 0 20px;
 	margin: 10px 0 30px;
@@ -749,7 +763,7 @@ html {
 	text-align: left;
 }
 .areaInner p.bigger {
-	font-size: 1.0em;
+	font-size: 1.3em;
 	line-height: 1.4em;
 	text-align: center;
 }
@@ -898,19 +912,20 @@ html {
 ----------------------------------------------- */
 
 #about h3 {
-  width:60%;
+  width:105%;
   margin-top:30px;
   font-size: 14pt;
-  line-height: 1.5em;
+  line-height: 2.0em;
 }
 
 /*	Smart Howto
 ----------------------------------------------- */
 #howto h3 {
-  width:60%;
+  width: 105%;
   margin-top:30px;
   font-size: 14pt;
-  line-height: 1.5em;
+  line-height: 2.0em;
+
 }
 
 .pcHowto{
@@ -928,8 +943,15 @@ html {
 
 /*	compare
 ----------------------------------------------- */
-#compare h3 {
-  width:60%;
+#compare h3:nth-child(1) {
+  width: 105%;
+  margin-top:30px;
+  font-size: 14pt;
+  line-height: 2.0em;
+}
+
+#compare h3:nth-child(n+1) {
+  width: 60%;
   margin-top:30px;
   font-size: 14pt;
   line-height: 1.5em;
@@ -946,9 +968,9 @@ html {
 ----------------------------------------------- */
 #ivent h3 {
   margin-top:30px;
-  width: 60%;
+  width: 105%;
   font-size: 12pt;
-  line-height: 1.5em;
+  line-height: 2.0em;
 }
 
  #ivent td {
