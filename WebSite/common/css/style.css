@@ -75,14 +75,12 @@ html, body {
 
 /* pc */
 
-/* = Smart Display None
------------------------------------------------*/
+/*--- = Smart Display None  ---*/
 .br-sp {
   display: none;
 }
 
-/*-----------------------------------------------
-	= Header
+/*  = Header
 -----------------------------------------------*/
 
 #SmartGlobalHeader{
@@ -164,6 +162,33 @@ nav#globalNav ul li#company a {
 /*-----------------------------------------------
 	= Content
 -----------------------------------------------*/
+#about.contentArea{
+  padding-top:80px;
+}
+
+#howto.contentArea{
+  padding-top:80px;
+}
+
+#compare.contentArea{
+  padding-top:80px;
+}
+
+#ivent.contentArea{
+  padding-top:80px;
+}
+
+#register .registarImg{
+  padding-top:80px;
+}
+
+#company.contentArea{
+  padding-top:80px;
+}
+.sample{
+        padding-top:100px;
+        margin-top:-100px;
+}
 
 #content {
 	background: url(../img/content_bg.png) no-repeat center center fixed;
@@ -667,54 +692,19 @@ span. {
 	margin: 10px;
 }
 
+/*smart phone*/
 
-/*sumaho*/
 @media all and (max-width: 720px) {
 
+/*---  = PC Display None / Smart Display Block --- */
 
-/*
-	= pc display none / smart display block
------------------------------------------------ */
 .br-sp{
   display: block;
 }
 
-/*---------------------------------------------
-	= Smart Content Header
------------------------------------------------ */
-
-#contentHeader {
-	min-width: 100%;
-	min-height: 50%;
-}
-#contentHeader h1 img {
-	width: 85%;
-	height: 30%;
-}
-a.gotoRegister {
-	width: 70%;
-	font-size: 14px;
-}
-span.keyword {
-	color: #fff;
-	font-size: 1.5em;
-	font-weight: bold;
-}
-
-
-
-/*-----------------------------------------------
-	= Smart Content
------------------------------------------------*/
-html {
-	background: #c84a61;
-}
-
-
 /*-----------------------------------------------
 	= Smart Common
 -----------------------------------------------*/
-
 
 .areaTitle img {
 	width:80%;
@@ -797,18 +787,52 @@ html {
 	padding: 5px 10px;
 }
 
+/*---------------------------------------------
+	= Smart Content Header
+----------------------------------------------- */
+
+#contentHeader {
+	min-width: 100%;
+	min-height: 50%;
+}
+#contentHeader h1 img {
+	width: 85%;
+	height: 30%;
+}
+a.gotoRegister {
+	width: 70%;
+	font-size: 14px;
+}
+span.keyword {
+	color: #fff;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+
+
+/*-----------------------------------------------
+	= Smart Content
+-----------------------------------------------*/
+
+html {
+	background: #c84a61;
+}
+
 /*-----------------------------------------------
 	= Smart menu
 -----------------------------------------------*/
+
+#globalHeader{
+  display: none;
+}
+
 #SmartGlobalHeader{
   display: block;
   top:0;
   position: fixed;
   width:100%;
   z-index:100;
-}
-#globalHeader{
-  display: none;
 }
 
 #menu {
@@ -947,19 +971,14 @@ html {
 }
 /*	compare
 ----------------------------------------------- */
-#compare h3:nth-child(1) {
+#compare h3 {
   width: 105%;
   margin-top:30px;
   font-size: 14pt;
   line-height: 2.0em;
 }
 
-#compare h3:nth-child(n+2) {
-  width: 60%;
-  margin-top:30px;
-  font-size: 14pt;
-  line-height: 1.5em;
-}
+
 #compare .keyword {
 	width: 80%;
 	font-size: 21px;
@@ -969,7 +988,7 @@ html {
 
 }
 
-/*	ivent
+/*	Smart Ivent
 ----------------------------------------------- */
 #ivent h3 {
   margin-top:30px;
@@ -1003,9 +1022,8 @@ html {
 
 
 
-/*	= smartRegister
+/*	= Smart Register
 ----------------------------------------------- */
-/*参加申し込み*/ 
 
 #register img {
 	width:80%;
@@ -1047,7 +1065,7 @@ html {
 	width: 100%;
 }
 
-/*	= Company
+/*	= Smart Company
 ----------------------------------------------- */
 #company img {
 	margin-top:50px;
@@ -1064,7 +1082,7 @@ html {
 
 
 
-/*	= Content Footer
+/*	= Smart Content Footer
 ----------------------------------------------- */
 
 #contentFooter {
