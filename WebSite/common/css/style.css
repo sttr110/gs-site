@@ -162,31 +162,32 @@ nav#globalNav ul li#company a {
   = Content
 -----------------------------------------------*/
 #about.contentArea{
-  padding-top:80px;
+  padding-top:70px;
+  margin-top: -70px;
 }
 
 #howto.contentArea{
-  padding-top:80px;
+  padding-top:70px;
+  margin-top: -70px;
 }
 
 #compare.contentArea{
-  padding-top:80px;
+  padding-top:70px;
+  margin-top: -70px;
 }
 
 #ivent.contentArea{
-  padding-top:80px;
+  padding-top:70px;
+  margin-top: -70px;
 }
 
 #register .registarImg{
-  padding-top:80px;
+  padding-top:70px;
 }
 
 #company.contentArea{
-  padding-top:80px;
-}
-.sample{
-  padding-top:100px;
-  margin-top:-100px;
+  padding-top:70px;
+  margin-top: -70px;
 }
 
 #content {
@@ -702,6 +703,53 @@ span. {
 }
 
 /*-----------------------------------------------
+  = Smart Content Hide Button
+-----------------------------------------------*/
+.hideAbout{
+  display: none;
+}
+.hideHowto{
+  display: none;
+}
+.hideCompare{
+  display: none;
+}
+.hideIvent{
+  display: none;
+}
+.hideRegister{
+  display: none;
+}
+
+button{
+  width: 80%;
+  height: 40px;
+  font-size: 1.2em;
+  color: #fff;
+}
+#aboutMoreLoad{
+  background: #c84a61;
+}
+
+#howtoMoreLoad{
+  background: #66b744;
+}
+
+#compareMoreLoad{
+  background: #d5a84f;
+}
+
+#iventMoreLoad{
+  background: #3e588e;
+}
+
+#registerMoreLoad{
+  background: #999;
+}
+
+
+
+/*-----------------------------------------------
   = Smart Common
 -----------------------------------------------*/
 
@@ -709,7 +757,7 @@ span. {
   width:80%;
 }
 .contentInner {
-  padding: 0px 0px;
+  padding: 0px 0px 10px;
 }
 .areaInner {
   padding: 15px;
@@ -764,7 +812,7 @@ html {
 }
 #SmartGlobalHeader{
   display: block;
-  top:0;
+  top:0px;
   position: fixed;
   width:100%;
   z-index:100;
@@ -774,7 +822,7 @@ html {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
-  padding: 0;
+  padding: 0px;
 }
 #menu li{
   display: block;
