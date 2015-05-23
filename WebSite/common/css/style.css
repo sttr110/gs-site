@@ -76,9 +76,10 @@ html, body {
 /* pc */
 
 /*--- = Smart Display None ---*/
-.br-sp, .smart-digest{
+.br-sp, .smart-digest, #yet-register{
  display: none;
 }
+
 /* = Header
 -----------------------------------------------*/
 
