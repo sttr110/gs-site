@@ -288,9 +288,10 @@ nav#globalNav ul li#company a {
   min-width: 1024px;
   min-height: 80%;
   width: 100%;
-  height: auto;
+  height: 350px;
   text-align: center;
   padding-top: 80px;
+  z-index: 10;
 }
 #contentHeader h1 img {
   width: 750px;
